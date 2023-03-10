@@ -1,0 +1,38 @@
+﻿  Game.cpp
+C:\Users\marsh\Desktop\RocketSimulation\RocketSimulation\Game.cpp(106,51): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\marsh\Desktop\RocketSimulation\RocketSimulation\Game.cpp(106,49): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\marsh\Desktop\RocketSimulation\RocketSimulation\Game.cpp(106,47): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\marsh\Desktop\RocketSimulation\RocketSimulation\Game.cpp(124,55): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\marsh\Desktop\RocketSimulation\RocketSimulation\Game.cpp(159,87): warning C4244: 'argument': conversion from 'const double' to 'float', possible loss of data
+C:\Users\marsh\Desktop\RocketSimulation\RocketSimulation\Game.cpp(165,87): warning C4244: 'argument': conversion from 'const double' to 'float', possible loss of data
+C:\Users\marsh\Desktop\RocketSimulation\RocketSimulation\Game.cpp(171,83): warning C4244: 'argument': conversion from 'const double' to 'float', possible loss of data
+C:\Users\marsh\Desktop\RocketSimulation\RocketSimulation\Game.cpp(177,83): warning C4244: 'argument': conversion from 'const double' to 'float', possible loss of data
+C:\Users\marsh\Desktop\RocketSimulation\RocketSimulation\Game.cpp(184,77): warning C4244: 'argument': conversion from 'const double' to 'float', possible loss of data
+C:\Users\marsh\Desktop\RocketSimulation\RocketSimulation\Game.cpp(190,77): warning C4244: 'argument': conversion from 'const double' to 'float', possible loss of data
+C:\Users\marsh\Desktop\RocketSimulation\RocketSimulation\Game.cpp(199,72): warning C4244: 'argument': conversion from 'const double' to 'float', possible loss of data
+C:\Users\marsh\Desktop\RocketSimulation\RocketSimulation\Game.cpp(205,72): warning C4244: 'argument': conversion from 'const double' to 'float', possible loss of data
+C:\Users\marsh\Desktop\RocketSimulation\RocketSimulation\Game.cpp(211,72): warning C4244: 'argument': conversion from 'const double' to 'float', possible loss of data
+C:\Users\marsh\Desktop\RocketSimulation\RocketSimulation\Game.cpp(217,72): warning C4244: 'argument': conversion from 'const double' to 'float', possible loss of data
+C:\Users\marsh\Desktop\RocketSimulation\RocketSimulation\Game.cpp(253,72): warning C4244: 'argument': conversion from 'const double' to 'float', possible loss of data
+C:\Users\marsh\Desktop\RocketSimulation\RocketSimulation\Game.cpp(260,72): warning C4244: 'argument': conversion from 'const double' to 'float', possible loss of data
+C:\Users\marsh\Desktop\RocketSimulation\RocketSimulation\Game.cpp(336,49): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\marsh\Desktop\RocketSimulation\RocketSimulation\Game.cpp(361,57): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\marsh\Desktop\RocketSimulation\RocketSimulation\Game.cpp(362,15): warning C4244: '+=': conversion from 'const double' to 'float', possible loss of data
+C:\Users\marsh\Desktop\RocketSimulation\RocketSimulation\Game.cpp(369,27): warning C4244: '=': conversion from 'const double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\marsh\Desktop\RocketSimulation\RocketSimulation\Game.cpp(381,93): warning C4244: 'argument': conversion from 'const double' to 'float', possible loss of data
+C:\Users\marsh\Desktop\RocketSimulation\RocketSimulation\Game.cpp(386,72): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\marsh\Desktop\RocketSimulation\RocketSimulation\Game.cpp(390,70): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\marsh\Desktop\RocketSimulation\RocketSimulation\Game.cpp(428,39): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+C:\Users\marsh\Desktop\RocketSimulation\RocketSimulation\Game.cpp(435,16): warning C4244: 'argument': conversion from 'const double' to 'const float', possible loss of data
+C:\Users\marsh\Desktop\RocketSimulation\RocketSimulation\Game.cpp(538,51): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\marsh\Desktop\RocketSimulation\RocketSimulation\Game.cpp(538,49): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\marsh\Desktop\RocketSimulation\RocketSimulation\Game.cpp(538,47): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  main.cpp
+C:\Users\marsh\Desktop\RocketSimulation\RocketSimulation\main.cpp(38,19): warning C4244: 'argument': conversion from 'const UINT' to 'const float', possible loss of data
+C:\Users\marsh\Desktop\RocketSimulation\RocketSimulation\main.cpp(38,12): warning C4244: 'argument': conversion from 'const UINT' to 'const float', possible loss of data
+  Generating Code...
+  RocketSimulation.vcxproj -> C:\Users\marsh\Desktop\RocketSimulation\x64\Debug\RocketSimulation.exe

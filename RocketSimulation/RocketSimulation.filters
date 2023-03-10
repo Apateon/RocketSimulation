@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{28ddcc9c-c2e7-4075-af0b-ca19b8c27746}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Structs &amp; Enums">
+      <UniqueIdentifier>{980d123b-b822-4908-9144-eddb32199c6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\instance">
+      <UniqueIdentifier>{0f7e4404-e757-44d5-8ee6-2abf3cdccb75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\default">
+      <UniqueIdentifier>{f1eb5b87-4e7c-4681-baba-ce2a491f5392}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\environment">
+      <UniqueIdentifier>{880d2ba7-7d9e-4e0f-97f4-8d9f9fd4d92d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\height">
+      <UniqueIdentifier>{79470904-3e1c-4f8b-aa19-2dc1184ae1f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\chrome">
+      <UniqueIdentifier>{a56fcc4c-98da-47cd-938f-e746139bd351}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\instanceParallax">
+      <UniqueIdentifier>{12f76ff5-0a60-47ac-aef6-70b51fccbfd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\engineParticle">
+      <UniqueIdentifier>{a42b1d76-e2a8-4b25-a5eb-1caf7827bac2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\parallax">
+      <UniqueIdentifier>{7f73a434-c3f0-4490-bc2b-5e64023a58c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\explosionParticle">
+      <UniqueIdentifier>{470d68e9-b63b-40f8-85c8-efb470d2791c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectXManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AntTweakManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DirectXManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometryType.h">
+      <Filter>Header Files\Structs &amp; Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleVertex.h">
+      <Filter>Header Files\Structs &amp; Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="Instance.h">
+      <Filter>Header Files\Structs &amp; Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="AntTweakManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Result.h">
+      <Filter>Header Files\Structs &amp; Enums</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="instancePS.hlsl">
+      <Filter>Shaders\instance</Filter>
+    </FxCompile>
+    <FxCompile Include="instanceShader.fx">
+      <Filter>Shaders\instance</Filter>
+    </FxCompile>
+    <FxCompile Include="instanceVS.hlsl">
+      <Filter>Shaders\instance</Filter>
+    </FxCompile>
+    <FxCompile Include="defaultPS.hlsl">
+      <Filter>Shaders\default</Filter>
+    </FxCompile>
+    <FxCompile Include="defaultShader.fx">
+      <Filter>Shaders\default</Filter>
+    </FxCompile>
+    <FxCompile Include="defaultVS.hlsl">
+      <Filter>Shaders\default</Filter>
+    </FxCompile>
+    <FxCompile Include="environmentShader.fx">
+      <Filter>Shaders\environment</Filter>
+    </FxCompile>
+    <FxCompile Include="environmentPS.hlsl">
+      <Filter>Shaders\environment</Filter>
+    </FxCompile>
+    <FxCompile Include="environmentVS.hlsl">
+      <Filter>Shaders\environment</Filter>
+    </FxCompile>
+    <FxCompile Include="heightPS.hlsl">
+      <Filter>Shaders\height</Filter>
+    </FxCompile>
+    <FxCompile Include="heightShader.fx">
+      <Filter>Shaders\height</Filter>
+    </FxCompile>
+    <FxCompile Include="heightVS.hlsl">
+      <Filter>Shaders\height</Filter>
+    </FxCompile>
+    <FxCompile Include="parallaxShader.fx">
+      <Filter>Shaders\parallax</Filter>
+    </FxCompile>
+    <FxCompile Include="parallaxVS.hlsl">
+      <Filter>Shaders\parallax</Filter>
+    </FxCompile>
+    <FxCompile Include="parallaxPS.hlsl">
+      <Filter>Shaders\parallax</Filter>
+    </FxCompile>
+    <FxCompile Include="chromeShader.fx">
+      <Filter>Shaders\chrome</Filter>
+    </FxCompile>
+    <FxCompile Include="chromeVS.hlsl">
+      <Filter>Shaders\chrome</Filter>
+    </FxCompile>
+    <FxCompile Include="chromePS.hlsl">
+      <Filter>Shaders\chrome</Filter>
+    </FxCompile>
+    <FxCompile Include="instanceParallaxPS.hlsl">
+      <Filter>Shaders\instanceParallax</Filter>
+    </FxCompile>
+    <FxCompile Include="instanceParallaxShader.fx">
+      <Filter>Shaders\instanceParallax</Filter>
+    </FxCompile>
+    <FxCompile Include="instanceParallaxVS.hlsl">
+      <Filter>Shaders\instanceParallax</Filter>
+    </FxCompile>
+    <FxCompile Include="engineParticleShader.fx">
+      <Filter>Shaders\engineParticle</Filter>
+    </FxCompile>
+    <FxCompile Include="engineParticlePS.hlsl">
+      <Filter>Shaders\engineParticle</Filter>
+    </FxCompile>
+    <FxCompile Include="engineParticleVS.hlsl">
+      <Filter>Shaders\engineParticle</Filter>
+    </FxCompile>
+    <FxCompile Include="explosionParticlePS.hlsl">
+      <Filter>Shaders\explosionParticle</Filter>
+    </FxCompile>
+    <FxCompile Include="explosionParticleVS.hlsl">
+      <Filter>Shaders\explosionParticle</Filter>
+    </FxCompile>
+    <FxCompile Include="explosionParticleShader.fx">
+      <Filter>Shaders\explosionParticle</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
